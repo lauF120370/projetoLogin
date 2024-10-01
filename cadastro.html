@@ -62,8 +62,13 @@
     <form>
             
         <p>
-            <label for="nomeusuario">Usuário</label>
-            <input name="nomeusuario" type="text" placeholder="Nome de Usuário" required>
+            <label for="nomeusuario">Nome Completo:</label>
+            <input name="nomeusuario" type="text" placeholder="Nome Completo do Usuário" required>
+        </p>
+
+        <p></p>
+            <label for="emailUsuario">Endereço de email:</label>
+            <input name="emailUsuario" type="email" placeholder="Email" required>
         </p>
 
         <p>
@@ -75,13 +80,7 @@
             <label for="confirmarSenha">Confirmar senha</label>
             <input name="confirmarSenha" type="text" placeholder="Confirmar Senha" required>
         </p>
-
-        <p>
-            <label>
-                <input name="manterlogado" type="checkbox" value="sim"/> Manter Logado
-            </label>
-        </p><br>
-
+        
         <select name="perfil">
             <option value="professor">Professor</option>
             <option value="administrador">Administrador</option>
